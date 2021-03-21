@@ -1,17 +1,9 @@
 #include "winver.h"
-
-#define THIS_PROJECT_VERSION_NUM		1,2,0,0
-#define THIS_PROJECT_VERSION_STRING		"1.2.0 (2000-04-10)"
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// Version
-//
-/////////////////////////////////////////////////////////////////////////////
+#include "ImageMagick.version.h"
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION THIS_PROJECT_VERSION_NUM
- PRODUCTVERSION THIS_PROJECT_VERSION_NUM
+ FILEVERSION DELEGATE_VERSION_NUM
+ PRODUCTVERSION DELEGATE_VERSION_NUM
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -30,8 +22,8 @@ BEGIN
             VALUE "FileDescription", "ImageMagick Studio library and utility programs\0"
             VALUE "OriginalFilename", "jbig\0"
             VALUE "InternalName", "ImageMagick Studio\0"
-            VALUE "FileVersion", THIS_PROJECT_VERSION_STRING "\0"
-            VALUE "ProductVersion", THIS_PROJECT_VERSION_STRING "\0"
+            VALUE "FileVersion", DELEGATE_VERSION_STRING "\0"
+            VALUE "ProductVersion", DELEGATE_VERSION_STRING "\0"
             VALUE "CompanyName", "Markus Kuhn, Friedrich-Alexander-University of Erlangen-Nuremberg\0"
             VALUE "LegalCopyright", "Copyright © 1995 - 1999 Markus Kuhn, Friedrich-Alexander\0"
             VALUE "Comments", "http://www4.informatik.uni-erlangen.de/Services/Doc/graphics/doc/jbig/\0"
