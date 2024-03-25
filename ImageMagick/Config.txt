@@ -1,0 +1,21 @@
+[DLL]
+
+[INCOMPATIBLE_LICENSE]
+
+[LICENSE]
+COPYING
+
+[DEFINES]
+_JBIGLIB_
+
+[DIRECTORIES]
+libjbig
+
+[EXCLUDES]
+tstcodec.c
+
+[CONFIG_DEFINE]
+/*
+  Define to use the JBIG library
+*/
+#define MAGICKCORE_JBIG_DELEGATE
