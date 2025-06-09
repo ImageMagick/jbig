@@ -260,12 +260,6 @@ struct jbg_dec_state {
 #   define JBIGEXPORT
 #endif
 
-#if defined(_VISUALC_)
-#   pragma warning( disable : 4018 )
-#   pragma warning( disable : 4244 )
-#   pragma warning( disable : 4142 )
-#endif
-
 extern JBIGEXPORT void jbg_enc_init(struct jbg_enc_state *s, unsigned long x, unsigned long y,
                                     int planes, unsigned char **p,
                                     void (*data_out)(unsigned char *start, size_t len,
