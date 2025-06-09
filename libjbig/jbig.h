@@ -251,9 +251,6 @@ struct jbg_dec_state {
 #   define _JBIGDLL_
 #endif
 #if defined(_JBIGDLL_)
-#   if defined(_VISUALC_)
-#       pragma warning( disable : 4273 )
-#   endif
 #   if !defined(_JBIGLIB_)
 #       define JBIGEXPORT __declspec(dllimport)
 #   else
