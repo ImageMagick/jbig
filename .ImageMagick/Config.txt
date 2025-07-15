@@ -1,4 +1,4 @@
-[DLL]
+[DYNAMIC_LIBRARY]
 
 [INCOMPATIBLE_LICENSE]
 
@@ -8,13 +8,14 @@ COPYING
 [DEFINES]
 _JBIGLIB_
 
-[DIRECTORIES]
-libjbig
+[INCLUDE_ARTIFACTS]
+libjbig\jbig.h -> .
 
 [EXCLUDES]
-tstcodec.c
+libjbig\tstcodec.c
+pbmtools\
 
-[CONFIG_DEFINE]
+[MAGICK_BASECONFIG_DEFINE]
 /*
   Define to use the JBIG library
 */
