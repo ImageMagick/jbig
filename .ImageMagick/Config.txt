@@ -2,6 +2,24 @@
 
 [INCOMPATIBLE_LICENSE]
 
+[VERSION]
+1.2.0
+
+[RELEASE_DATE]
+2000-04-10
+
+[PRODUCT_NAME]
+jbig
+
+[COMPANY_NAME]
+Markus Kuhn, Friedrich-Alexander-University of Erlangen-Nuremberg
+
+[URL]
+https://www.cl.cam.ac.uk/~mgk25/jbigkit
+
+[COPYRIGHT]
+Copyright © 1995 Markus Kuhn, Friedrich-Alexander
+
 [LICENSE_FILE]
 COPYING
 
